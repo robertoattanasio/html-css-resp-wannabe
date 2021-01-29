@@ -77,78 +77,59 @@ img {
   .container.grey {
     background-color: #f9f9f9;
   }
-}
 
-/* INIZIALIZZAZIONE MARGIN-TOP IMG */
-@media screen and (max-width:1024px) {
+  /* INIZIALIZZAZIONE MARGIN-TOP IMG */
   img {
     margin-top: 30px;
   }
-}
 
-/* INIZIALIZZIONE MARGIN BODY */
-@media screen and (max-width:1024px) {
+  /* INIZIALIZZIONE MARGIN BODY */
   body {
     margin: 0;
   }
-}
 
-/* AGGIUNTA PADDING TOP E BOTTOM PER SEZIONI */
-@media screen and (max-width:1024px) {
+  /* AGGIUNTA PADDING TOP E BOTTOM PER SEZIONI */
   #lezioni, #steps, #why {
     padding: 10px 0;
   }
-}
 
-/* CORREZIONE DELLE ROW */
-@media screen and (max-width:1024px) {
+  /* CORREZIONE DELLE ROW */
   .row {
     margin-top: 0;
     width: 100%;
   }
-}
 
-/* ELIMINAZIONE H1,H3 MARGIN */
-@media screen and (max-width:1024px) {
+  /* ELIMINAZIONE H1,H3 MARGIN */
   h1, h3 {
     margin: 0;
   }
-}
 
-/* RIPOSIZIONAMENTO VERTICALE BLOCCO LEZIONI */
-@media screen and (max-width:1024px) {
+  /* RIPOSIZIONAMENTO VERTICALE BLOCCO LEZIONI */
   #lezioni .row>.left, #lezioni .row>.right {
     width: 100%;
     margin: auto;
     float: none;
   }
-}
 
-/* RIPOSIZIONAMENTO VERTICALE BLOCCO STEPS  */
-@media screen and (max-width:1024px) {
+  /* RIPOSIZIONAMENTO VERTICALE BLOCCO STEPS  */
   #steps .row>.left, #steps .row>.central, #steps .row>.right {
     width: 100%;
     margin: auto;
     float: none;
   }
-}
 
-/* DISATTIVAZIONE MARGIN-TOP DEL ROW, BLOCCO WHY */
-@media screen and (max-width:1024px) {
+  /* DISATTIVAZIONE MARGIN-TOP DEL ROW, BLOCCO WHY */
   #why .row>.first, #why .row>.second, #why .row>.third {
     margin-top: 0px;
   }
-}
 
-/* DISATTIVAZIONE MARGINI DELL'HR */
-@media screen and (max-width:1024px) {
+  /* DISATTIVAZIONE MARGINI DELL'HR */
   hr {
     margin: 0;
   }
 }
 
 /* ISTRUZIONI MOBILE MAX WIDTH 420px */
-
 /* CAMBIO COLORE SFONDO PER BLOCCHI LEZION E WHY */
 @media screen and (max-width:420px) {
   #lezioni, #why {
@@ -157,7 +138,6 @@ img {
 }
 
 /* ISTRUZIONI MOBILE MAX WIDTH 320px */
-
 /* RESIZE IMMAGINI */
 @media screen and (max-width:320px) {
   img {
